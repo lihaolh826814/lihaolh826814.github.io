@@ -1,0 +1,90 @@
+/*首页轮播*/
+
+.flexslider {
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	min-width: 1200px;
+}
+
+.slides {
+	position: relative;
+	z-index: 1;
+}
+
+.slides li {
+	width: 100%;
+	min-width: 1200px;
+}
+
+.slides li img {
+	display: block;
+	width: 100%;
+}
+
+.flex-control-nav {
+	position: absolute;
+	bottom: 15px;
+	z-index: 2;
+	width: 100%;
+	text-align: center;
+}
+
+.flex-control-nav li {
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	border-radius: 12px;
+	margin: 0 4px;
+	*display: inline;
+	zoom: 1;
+}
+
+.flex-control-nav a {
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	border-radius: 12px;
+	line-height: 40px;
+	overflow: hidden;
+	background: #fff;
+	cursor: pointer;
+}
+
+.flex-control-nav .flex-active {
+	background: #0079ff;
+}
+
+.flex-direction-nav {
+	position: absolute;
+	z-index: 3;
+	top: 45%;
+	width: 100%;
+}
+
+.flex-direction-nav li a {
+	display: block;
+	width: 35px;
+	height: 70px;
+	overflow: hidden;
+	cursor: pointer;
+	position: absolute;
+}
+
+.flex-direction-nav li a.flex-prev {
+	left: 40px;
+	background: url(../images/left.png) center center no-repeat;
+}
+
+.flex-direction-nav li a.flex-prev:hover {
+	background: url(../images/left.png) center center no-repeat;
+}
+
+.flex-direction-nav li a.flex-next {
+	right: 40px;
+	background: url(../images/right.png) center center no-repeat;
+}
+
+.flex-direction-nav li a.flex-next:hover {
+	background: url(../images/right.png) center center no-repeat;
+}

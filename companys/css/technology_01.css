@@ -1,0 +1,73 @@
+.tech_list_main{
+	width: 1200px;
+	max-width: 1400px;
+    margin: 0 auto;
+    padding: 0;
+    margin-bottom: 95px;
+    display: block;
+    overflow: hidden;
+    border-top: 90px solid transparent;
+}
+	.tech_list_header{
+		width: 99.5%;
+		height: 3rem;
+		border: 2px solid #999999;
+		margin-top: 3rem;
+	}
+	.tech_list_header ul{
+		line-height: 3rem;
+		
+	}
+	.tech_list_header ul li{
+		text-align: center;
+		float: left;
+		width: 5rem;
+		font-size: 1rem;
+	}
+	.tech_list_header ul li a:hover{
+		color: #595959;
+	}
+	.tech_list_header ul li a{
+		color: #2a5d84;
+	}
+	.tech_list_header ul li .checked{
+		color: #595959;
+	}
+/*图标加标题*/
+.product_title{
+		height: 30rem;
+		width: 50%;
+		float: left;
+	}
+.product_title_right{
+	height: 30rem;
+	width: 49.5%;
+	float: left;
+	border: 2px solid deepskyblue;
+}
+	.product_title .pro_tech_img{
+		margin: 3rem 0 0 0 ;
+		float: left;
+		width: 22%;
+		height: 8rem;
+		border: 2px solid cadetblue;
+	}
+		.pro_tech_img img{
+			max-width: 100%;
+		}
+	.product_title .pro_tech_title{
+		margin: 3rem 0 0 0 ;
+		float: left;
+		width: 76.6%;
+		height: 8rem;
+		border: 2px solid blueviolet;
+		line-height: 2rem;
+	}
+		.pro_tech_title h1{
+			font-size: 2rem;
+			margin: 2rem 0 0 0;
+			color: ;
+		}
+		.pro_tech_title a{
+			
+		}
