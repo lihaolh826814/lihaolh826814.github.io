@@ -499,7 +499,9 @@ img {
 	border-bottom: 1px solid #516983;
 	margin-top: 20px;
 }
-
+.footer_r ul li{
+	float: left;
+}
 .footer_r img {
 	padding-top: 15px;
 	padding-left: 5px;

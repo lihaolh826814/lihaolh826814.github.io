@@ -206,6 +206,7 @@
 .xmlc_listb dl:hover ul{
 	display: block;
 	list-style: none;
+	margin-left: 1.2rem;
 }
 .xmlc_listb dl li {
 	width: 7rem;
